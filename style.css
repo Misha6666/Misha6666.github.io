@@ -1,6 +1,7 @@
 body {
-  font-family: "Helvetica";
-  background-color: #f6f8fa;
+  font-family: Arial, Helvetica, sans-serif;
+  background: rgb(51,23,210);
+  background: linear-gradient(339deg, rgba(51,23,210,1) 0%, rgba(154,186,228,1) 65%);
   color: #24292f;
   display: flex;
   flex-direction: column;
@@ -15,7 +16,9 @@ body {
 .header__avatar {
   border-radius: 50%;
 }
-
+.photo1 {
+  width: 200px;
+}
 .header__title {
   margin: 30px 0 10px 0;
   font-size: 32px;
