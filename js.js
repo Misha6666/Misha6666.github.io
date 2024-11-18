@@ -3,5 +3,5 @@ const button = document.querySelector('button');
 
 /* Тут на кнопку навешиваем обрабочик, который ждёт клика и тогда запустит логику */
 button.addEventListener('click', function() {
-	alert('Деньги это не главное')
+	gotoLink("https://www.youtube.com/watch?v=dQw4w9WgXcQ")
 })
