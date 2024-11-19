@@ -1,6 +1,10 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
-
+  background: hsla(223, 71%, 56%, 1);
+  background: linear-gradient(0deg, hsla(223, 71%, 56%, 1) 4%, hsla(199, 88%, 94%, 1) 62%);
+background: -moz-linear-gradient(0deg, hsla(223, 71%, 56%, 1) 4%, hsla(199, 88%, 94%, 1) 62%);
+background: -webkit-linear-gradient(0deg, hsla(223, 71%, 56%, 1) 4%, hsla(199, 88%, 94%, 1) 62%);
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#416DDF", endColorstr="#E0F4FD", GradientType=1 );
   display: flex;
   flex-direction: column;
   justify-content: center;
